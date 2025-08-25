@@ -1,0 +1,105 @@
+/* DS Responsive Start Here */
+
+@media only screen and (min-width: 1399px) {}
+@media only screen and (max-width: 1299px) {}
+@media only screen and (max-width: 1199px) {
+    .menuBtn {margin-right: 120px;}
+    .gold-wellnes-section .main-heading {font-size: 66px;}
+    .home-gallery-slider .owl-nav .owl-next {margin-right: 15px;}    
+    .home-gallery-slider .owl-nav .owl-prev {margin-left: 15px;}
+    .home-gallery-slider .owl-nav .owl-prev img, .home-gallery-slider .owl-nav .owl-next img {filter: brightness(0) invert(1);}
+    .f-info a {word-break: break-all;}
+    .home-gallery-sec h3 {font-size: 110px;}
+}
+@media only screen and (max-width: 991px) {
+    .main-home-banner-content h2, .inner-pages-banner h2 {font-size: 38px;}
+    .section-padding, footer {padding: 40px 0px;}
+    .home-overview {padding: 0px 12px;}
+    .main-heading {font-size: 32px;padding-bottom: 15px;}
+    .gold-wellnes-section .main-heading {font-size: 48px;}
+    .gold-wellnes-section p {padding: 0;}
+    .home-gallery-sec h3 {font-size: 48px;}
+    .wc_img2 {margin-bottom: 0;}
+    .quick-link-box, footer .footer-resort {padding-left: 0;}
+    footer h6 {margin-top: 30px;}
+    .pb-5 {padding-bottom: 1.5rem !important;}
+    p {font-size: 14px;letter-spacing: 0.5px;}
+    .wellness-content.left, .wellness-content.right {padding: 0;}
+    .wellness-section .accordion-container .accordion-button {
+        padding: 10px 0px 10px 35px;font-size: 14px;
+        &::after {bottom: 4px;}
+    }
+    .ss_item {margin-top: 20px;}
+    .phb_box {min-height: auto;}
+    .phb-sec h3 {margin-top: 15px !important;}
+    .phb-sec .col-lg-4.col-md-4.col-md-12:nth-of-type(3) {order: 1;}
+    .phb-sec .col-lg-4.col-md-4.col-md-12:nth-of-type(2) {order: 2;}
+    .phb-sec .col-lg-4.col-md-4.col-md-12:nth-of-type(4) {order: 3;}
+    .first-overview h3{font-size: 32px;}
+    .offer-categories .room-details.offers {padding: 20px 0px;}
+    .rooms-category .room-details .book-now {position: relative;right: 0;bottom: 0;}
+    .details-icons .icon-text .text {font-size: 14px;}
+    .room-details h4 {font-size: 16px;}
+    ul.wedding-ul li {font-size: 14px;}
+    #room-Tab button, #room-Tab2 button {padding: 8px;font-size: 14px;}
+}
+@media only screen and (max-width: 767px) {
+    .gold-wellnes-section .main-heading {font-size: 34px;letter-spacing: 2px;margin-bottom: 15px;}
+    .ws_img img {height: 460px;}
+    .home-special-moment {padding: 40px 0px;}
+    .home-gallery-sec h3 {font-size: 28px;letter-spacing: 0;}
+    .wc_img1 {max-width: 680px;margin-left: 0;margin-bottom: 45px;}
+    .wc_img2 {margin-bottom: 0;bottom: 0;right: 15px;}
+    /*.section-padding.color-bg.wellness-section .row {flex-direction: column-reverse;}*/
+
+    .well_img_box {margin-bottom: 30px;}
+    .wellness-content h2 {margin-bottom: 15px;}
+    .wellness-content p {margin: 10px 0;}
+    .wellness-section .accordion-container .accordion-header{margin: 0;}
+    .wc_img1 {margin-left: 0;margin-bottom: 30px;}
+    .hlbTab .nav.nav-tabs .nav-item, .hlbTab.tbbyTab .nav.nav-tabs .nav-item {width: 100%; margin: 15px 0;}
+    .hlbTab .nav.nav-tabs {position: relative;top: 0;left: 0;right: 0;bottom: 0;margin-bottom: 0px;border: none;}
+    .frontview {display: none;}
+    .backview {position: relative;display: block;opacity: 1;padding: 15px;}
+    .hlbTab .nav.nav-tabs .nav-item .nav-link {border: none;border-radius: 0;box-shadow: none;padding: 0;background-color: transparent;border-right: none;}
+    .verti-image {opacity: 1;position: relative;}
+    .verticol {opacity: 1;z-index: 1;background-color: rgba(0, 0, 0, 0.7);}
+    .hlbTab .tab-content, .cover-img {height: auto;}
+    .vertiinner {display: flex;flex-direction: column-reverse;}
+    .hlbTab .tab-content {display: none;}
+    .ss_content {position: relative; margin-top: 20px;}
+    .ss_content h3 {padding: 0;}
+    .ss_content p, .ss_item:hover .ss_content p {padding: 15px 0 0 0; opacity:1; }
+    .well-img {order: 1;}
+    .well-text {order: 2;}
+}
+@media only screen and (max-width: 575px) {
+    .header-book-now {padding: 5px 14px;margin-right: 0;font-size: 14px;}
+    .menuBtn {margin-right: 80px;margin-left: 0px;}
+    .main-heading, .ws_text h3, .destination-content h5, .first-overview h3 {font-size: 28px;}
+    .wc_img2 {max-width: 150px;right: 12px;}
+    .contact-details-box {padding: 30px 15px;}
+    .contact-details-box .details-box p {font-size: 14px;}
+    .contact-map-box iframe {height: 360px;}
+    .contact-details-box .mb-5 {margin-bottom: 15px !important;}
+    .contact-details-box .details-box .icon i {font-size: 18px;}
+    .room-item {padding: 10px;}
+    .text {font-size: 13px;text-align: left;}
+    .room-home-description {padding: 0;}
+    ul.wedding-ul li span {font-size: 14px;}
+    .room-slider {height: auto;}
+    .room-slider .owl-nav{}
+    .room-slider .owl-nav button {border: none !important;box-shadow: none;width: 24px;border-radius: 0 !important;}
+    .inner-pages-banner {padding: 140px 0px 80px 0px;background-position: center center;}
+    header .logo img, header.header-fixed .logo img {width: 90px;}
+    .nav.nav-tabs.ds-nav-tabs .nav-item .nav-link {font-size: 14px;padding: 7px 10px;margin: 0px 0px 15px 0px;}    
+}
+@media only screen and (max-width: 479px) {
+    .ws_img img, .destination-image img.w-100, .destination-image video.property-video, .ss_item img.img-fluid, .about_box img,
+    .wedding-slider .wedding-item img, .room-page-slider .item img {height: 360px;}
+    .hlbTab.tbbyTab .nav.nav-tabs .nav-item .frontview h3, .hlbTab.tbbyTab .nav.nav-tabs .nav-item .backview h3 {font-size: 26px;}
+}
+@media only screen and (max-width: 379px) {}
+@media only screen and (max-width: 375px) {}
+
+/* DS Responsive Start Here End */

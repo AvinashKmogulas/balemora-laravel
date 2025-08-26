@@ -53,7 +53,8 @@
                     <p>Ancient hands meet modern needs, guiding you back to balance with therapies that heal from skin to
                         soul. Every touch becomes a conversation between nature and you.</p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore More</a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,7 +66,8 @@
                     <p>Food becomes medicine as you savor meals crafted to nourish, cleanse, and restore. Each bite carries
                         the wisdom of herbs, spices, and mindful intention. </p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore More</a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,7 +79,8 @@
                     <p>Awaken your body’s quiet intelligence through mindful movement and breath. It is a practice where
                         strength softens and stillness becomes your truest power.</p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore More</a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,8 @@
                     <p>Shed what no longer serves in body, mind, and spirit. This is a cleansing designed to purify and
                         renew your sense of lightness and vitality.</p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore More</a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,7 +131,7 @@
                             <p>Nestled in lush landscapes, this retreat is a haven for families, couples and those seeking
                                 quiet luxury with curated wellness experiences. </p>
                             <div class="mt-3">
-                                <div class="cs-btn"><a class="btn" href="balemora-lucknow-overview.php">Explore </a>
+                                <div class="cs-btn"><a class="btn" href="{{ route('lucknow') }}">Explore </a>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +153,7 @@
                             <p>Set in the stillness of Uttarakhand, this wellness-first retreat is where nature, comfort,
                                 and mindful living come together. </p>
                             <div class="mt-3">
-                                <div class="cs-btn"><a class="btn" href="balemora-almora-overview.php">Explore </a>
+                                <div class="cs-btn"><a class="btn" href="{{ route('almora') }}">Explore </a>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +241,7 @@
                         <p>From intimate weddings to grand celebrations, Balemora provides breathtaking settings for your
                             most cherished moments. With bespoke services, curated dining and stunning backdrops, every
                             event becomes unforgettable.</p>
-                        <div class="mt-4"><a href="balemora-lucknow-events-celebration.php">Know More</a> </div>
+                        <div class="mt-4"><a href="{{ route('eventCelebrationBalemoraLucknow') }}">Know More</a> </div>
                     </div>
                 </div>
             </div>
@@ -262,7 +266,8 @@
                                         Explore revered temples, visit iconic landmarks, and experience the serenity of
                                         the Sarayu River.</p>
                                     <div class="mt-3">
-                                        <div class="cs-btn"><a class="btn" href="special-offers.php">Explore </a>
+                                        <div class="cs-btn"><a class="btn"
+                                                href="{{ route('balemoraOffer') }}">Explore </a>
                                         </div>
                                     </div>
                                 </div>
@@ -278,7 +283,8 @@
                                         exploring significant Buddhist landmarks with curated experiences designed for
                                         inner peace and reflection.</p>
                                     <div class="mt-3">
-                                        <div class="cs-btn"><a class="btn" href="special-offers.php">Explore </a>
+                                        <div class="cs-btn"><a class="btn"
+                                                href="{{ route('balemoraOffer') }}">Explore </a>
                                         </div>
                                     </div>
                                 </div>
@@ -293,7 +299,8 @@
                                     <p>Extend your getaway and enjoy special discounts, premium comforts, and
                                         personalized services. Perfect for workcations or leisure stays.</p>
                                     <div class="mt-3">
-                                        <div class="cs-btn"><a class="btn" href="special-offers.php">Explore </a>
+                                        <div class="cs-btn"><a class="btn"
+                                                href="{{ route('balemoraOffer') }}">Explore </a>
                                         </div>
                                     </div>
                                 </div>

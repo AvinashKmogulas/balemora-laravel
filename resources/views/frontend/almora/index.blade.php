@@ -53,7 +53,7 @@
                     <p>Ancient hands meet modern needs, guiding you back to balance with therapies that heal from skin to
                         soul. Every touch becomes a conversation between nature and you.</p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore </a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore </a> </div>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     <p>Food becomes medicine as you savor meals crafted to nourish, cleanse, and restore. Each bite carries
                         the wisdom of herbs, spices, and mindful intention. </p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore </a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore </a> </div>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     <p>Awaken your body’s quiet intelligence through mindful movement and breath. It is a practice where
                         strength softens and stillness becomes your truest power.</p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore </a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore </a> </div>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     <p>Shed what no longer serves in body, mind, and spirit. This is a cleansing designed to purify and
                         renew your sense of lightness and vitality.</p>
                     <div class="mt-3">
-                        <div class="cs-btn"><a class="btn" href="balemora-wellness.php">Explore </a> </div>
+                        <div class="cs-btn"><a class="btn" href="{{ route('balemora-wellness') }}">Explore </a> </div>
                     </div>
                 </div>
             </div>
@@ -123,9 +123,9 @@
                                             <div class="text">All Meals Inclusive</div>
                                         </div>
                                         <!-- <div class="details">
-                                                                <div class="icon"> <img src="{{ URL::asset('assets/icons/size-new.png') }}" alt=""></div>
-                                                                <div class="text">900 SQFT</div>
-                                                            </div> -->
+                                                                        <div class="icon"> <img src="{{ URL::asset('assets/icons/size-new.png') }}" alt=""></div>
+                                                                        <div class="text">900 SQFT</div>
+                                                                    </div> -->
                                         <div class="details">
                                             <div class="icon"> <img
                                                     src="{{ URL::asset('assets/icons/window-frame.png') }}"
@@ -136,7 +136,8 @@
                                     </div>
                                     <h3>The Cottage </h3>
                                     <div class="mt-3">
-                                        <div class="cs-btn"><a class="btn" href="balemora-almora-living.php">Explore
+                                        <div class="cs-btn"><a class="btn"
+                                                href="{{ route('livingBalemoraAlmora') }}">Explore
                                             </a> </div>
                                     </div>
                                 </div>
@@ -190,7 +191,7 @@
                                         services. Perfect for workcations or leisure stays. </p>
                                     <div class="mt-3">
                                         <div class="cs-btn"><a class="btn"
-                                                href="balemora-almora-special-offers.php">Explore </a> </div>
+                                                href="{{ route('specialOfferBalemoraAlmora') }}">Explore </a> </div>
                                     </div>
                                 </div>
                             </div>

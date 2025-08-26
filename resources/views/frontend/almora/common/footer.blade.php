@@ -2,8 +2,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-2 col-md-12 col-sm-12">
-                <div class="footer-logo"><a href="{{ route('almora') }}"><img
-                            src="{{ URL::asset('assets/logos/newLogowhite.png') }}" alt=""> </a>
+                <div class="footer-logo">
+                    <a href="{{ route('almora') }}">
+                        <img src="{{ $info->website_white_logo ?? URL::asset('assets/logos/newLogowhite.png') }}"
+                            alt="{{ $info->website_name ?? 'Balemora' }}">
+                    </a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-12 col-sm-12">
@@ -14,9 +17,9 @@
                         <li><a class="text-white" href="{{ route('balemora-wellness') }}">Balemora Wellness</a></li>
                         <li><a class="text-white" href="{{ route('aboutBalemora') }}">About Us</a></li>
                         <li><a class="text-white" href="{{ route('galleryBalemoraAlmora') }}">Gallery</a></li>
-                        <li><a class="text-white" href="">Special Offers</a>
+                        <li><a class="text-white" href="{{ route('specialOfferBalemoraAlmora') }}">Special Offers</a>
                         </li>
-                        <li><a class="text-white" href="">Contact Us</a></li>
+                        <li><a class="text-white" href="{{ route('contactBalemoraAlmora') }}">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

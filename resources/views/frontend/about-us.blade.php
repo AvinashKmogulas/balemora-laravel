@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-md-7">
                         <div class="wc_img1" data-aos="fade-up" data-aos-duration="1200">
-                            <img src="{{ URL::asset('assets/images/about1.php.jpg') }}" class="img-fluid" loading="lazy"
+                            <img src="{{ URL::asset('assets/images/about1.jpg') }}" class="img-fluid" loading="lazy"
                                 alt="">
                         </div>
                         <div class="wc_img2" data-aos="zoom-in" data-aos-duration="1200">
@@ -59,7 +59,7 @@
                                                     detoxification to anti-aging and spiritual growth. </p>
                                                 <div class="mt-3">
                                                     <div class="cs-btn"><a class="btn"
-                                                            href="balemora-wellness.php">Discover </a> </div>
+                                                            href="{{ route('balemora-wellness') }}">Discover </a> </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -88,7 +88,7 @@
                                                     delivered with expertise and care. </p>
                                                 <div class="mt-3">
                                                     <div class="cs-btn"><a class="btn"
-                                                            href="balemora-wellness.php">Discover </a> </div>
+                                                            href="{{ route('balemora-wellness') }}">Discover </a> </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -119,7 +119,7 @@
                                                     power of nature. </p>
                                                 <div class="mt-3">
                                                     <div class="cs-btn"><a class="btn"
-                                                            href="balemora-wellness.php">Discover </a> </div>
+                                                            href="{{ route('balemora-wellness') }}">Discover </a> </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -148,7 +148,7 @@
                                                     promote mental clarity, stress relief, and emotional balance. </p>
                                                 <div class="mt-3">
                                                     <div class="cs-btn"><a class="btn"
-                                                            href="balemora-wellness.php">Discover </a> </div>
+                                                            href="{{ route('balemora-wellness') }}">Discover </a> </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -307,7 +307,7 @@
                                                     experience stillness with intention.</p>
                                                 <div class="mt-3">
                                                     <div class="cs-btn"><a class="btn"
-                                                            href="balemora-lucknow-overview.php">Discover </a> </div>
+                                                            href="{{ route('lucknow') }}">Discover </a> </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -333,7 +333,7 @@
                                                     spiritual silence frame every moment of renewal. </p>
                                                 <div class="mt-3">
                                                     <div class="cs-btn"><a class="btn"
-                                                            href="balemora-almora-overview.php">Discover </a> </div>
+                                                            href="{{ route('almora') }}">Discover </a> </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -7,7 +7,9 @@
     <title>{{ $title ?? 'Balemora Wellness Retreats' }}</title>
     <meta name="description"
         content="{{ $meta_description ?? 'Have questions or ready to plan your stay? We’re just a message away. Reach out and let us help you experience Balemora Wellness Retreats.' }}" />
-    <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{ $info->apple_touch_icon ?? '' }}">
+    <link rel="shortcut icon" href="{{ $info->website_favicon ?? URL::asset('assets/images/favicon.ico') }}"
+        type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         as="style" onload="this.onload=null;this.rel='stylesheet'">

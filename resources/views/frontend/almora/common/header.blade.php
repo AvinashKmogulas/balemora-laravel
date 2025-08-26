@@ -29,8 +29,8 @@
         <li class="nav-item"><a href="{{ route('balemora-wellness') }}" class="nav-link">Balemora Wellness </a> </li>
         <li class="nav-item"><a href="{{ route('livingBalemoraAlmora') }}" class="nav-link">Living </a> </li>
         <li class="nav-item"><a href="{{ route('galleryBalemoraAlmora') }}" class="nav-link">Gallery </a> </li>
-        <li class="nav-item"><a href="" class="nav-link">Special Offers </a>
+        <li class="nav-item"><a href="{{ route('specialOfferBalemoraAlmora') }}" class="nav-link">Special Offers </a>
         </li>
-        <li class="nav-item"><a href="" class="nav-link">Contact Us </a> </li>
+        <li class="nav-item"><a href="{{ route('contactBalemoraAlmora') }}" class="nav-link">Contact Us </a> </li>
     </ul>
 </div>

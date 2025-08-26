@@ -8,9 +8,10 @@
             </div>
             <div class="logo">
                 <a href="{{ route('home') }}">
-                    <img src="{{ URL::asset('assets/logos/newLogowhite.png') }}" alt="" class="white-logo">
-                    <img src="{{ URL::asset('assets/logos/newLogowhitecolored.png') }}" alt=""
-                        class="color-logo">
+                    <img src="{{ $info->website_white_logo ?? URL::asset('assets/logos/newLogowhite.png') }}"
+                        alt="" class="white-logo">
+                    <img src="{{ $info->website_logo ?? URL::asset('assets/logos/newLogowhitecolored.png') }}"
+                        alt="" class="color-logo">
                 </a>
             </div>
             <button class="header-book-now" data-bs-toggle="modal" data-bs-target="#bookingModal" type="button">Book

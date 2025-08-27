@@ -69,7 +69,7 @@ class WebsiteGalleryController extends Controller
             if ($pathFromUrl) {
                 $fullPath = public_path(ltrim($pathFromUrl, '/'));
                 if (File::exists($fullPath)) {
-@File::delete($fullPath);
+                    @File::delete($fullPath);
                 }
             }
         }

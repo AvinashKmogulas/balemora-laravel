@@ -41,7 +41,7 @@ class WebsiteBannerController extends Controller
 
             $uploadDir = public_path('uploads/website-banners');
             if(!is_dir($uploadDir)){
-@mkdir($uploadDir, 0755, true);
+                @mkdir($uploadDir, 0755, true);
             }
             $file->move($uploadDir, $filename);
             $mediaUrl = asset('uploads/website-banners/' . $filename);

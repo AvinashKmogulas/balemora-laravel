@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? 'Admin | Balemora resort' }} </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,6 +17,9 @@
     <link rel="stylesheet" href="{{ URL::asset('backend/assets/css/iconify-icons.css') }}" />
     <script src="{{ URL::asset('backend/assets/js/helpers.js') }}"></script>
     <script src="{{ URL::asset('backend/assets/js/jquery.js') }}"></script>
+    <script src="https://cdn.tiny.cloud/1/fuzj8lljvdncx7ixsjsxxd20cpyo03nca083dpwvttnhrfui/tinymce/8/tinymce.min.js"
+        referrerpolicy="origin" crossorigin="anonymous"></script>
+
 
     <style>
         .swal2-container.swal2-top-end.swal2-backdrop-show {

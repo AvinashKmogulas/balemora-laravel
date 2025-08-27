@@ -65,6 +65,12 @@ Route::prefix('admin')->group(function () {
 
         // offers
         Route::get('/offers', [OffersController::class, 'offers'])->name('offers');
+        Route::get('/add-offers', [OffersController::class, 'addOffers'])->name('offers.add');
+        Route::get('/edit-offers/{id}', [OffersController::class, 'editOffers'])->name('offers.edit');
+        Route::post('/offers', [OffersController::class, 'store'])->name('offers.store');
+        Route::put('/offers/{id}', [OffersController::class, 'update'])->name('offers.update');
+        Route::delete('/offers/{id}', [OffersController::class, 'destroy'])->name('offers.destroy');
+        Route::patch('/offers/{id}/toggle-status', [OffersController::class, 'toggleStatus'])->name('offers.toggle');
 
         // logout
         Route::get('/logout', [AuthController::class, 'logout'])->name('logout');

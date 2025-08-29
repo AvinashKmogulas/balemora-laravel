@@ -1,11 +1,14 @@
 <?php
 
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\ContactDetailsController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\OffersController;
+use App\Http\Controllers\Admin\SocialMediaLinksController;
 use App\Http\Controllers\Admin\WebsiteBannerController;
 use App\Http\Controllers\Admin\WebsiteGalleryController;
 use App\Http\Controllers\Admin\WebsiteInfoController;
+use App\Http\Controllers\Admin\WebsitePagesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\lucknow\HomeController as LucknowHomeController;
 use App\Http\Controllers\almora\HomeController as AlmoraHomeController;
@@ -71,6 +74,23 @@ Route::prefix('admin')->group(function () {
         Route::put('/offers/{id}', [OffersController::class, 'update'])->name('offers.update');
         Route::delete('/offers/{id}', [OffersController::class, 'destroy'])->name('offers.destroy');
         Route::patch('/offers/{id}/toggle-status', [OffersController::class, 'toggleStatus'])->name('offers.toggle');
+
+        // contact details
+        Route::get('/contact-details', [ContactDetailsController::class, 'index'])->name('contactDetails');
+        Route::post('/contact-details', [ContactDetailsController::class, 'store'])->name('contactDetails.store');
+        Route::put('/contact-details/{id}', [ContactDetailsController::class, 'update'])->name('contactDetails.update');
+        Route::delete('/contact-details/{id}', [ContactDetailsController::class, 'destroy'])->name('contactDetails.destroy');
+        Route::patch('/contact-details/{id}/toggle-status', [ContactDetailsController::class, 'toggleStatus'])->name('contactDetails.toggle');
+
+        // social media links
+        Route::get('/social-media-links', [SocialMediaLinksController::class, 'socialMediaLinks'])->name('socialMediaLinks');
+        Route::post('/social-media-links', [SocialMediaLinksController::class, 'store'])->name('socialMediaLinks.store');
+        Route::put('/social-media-links/{id}', [SocialMediaLinksController::class, 'update'])->name('socialMediaLinks.update');
+        Route::delete('/social-media-links/{id}', [SocialMediaLinksController::class, 'destroy'])->name('socialMediaLinks.destroy');
+        Route::post('/social-media-links/{id}/toggle-status', [SocialMediaLinksController::class, 'toggleStatus'])->name('socialMediaLinks.toggle');
+
+        // website pages
+        
 
         // logout
         Route::get('/logout', [AuthController::class, 'logout'])->name('logout');

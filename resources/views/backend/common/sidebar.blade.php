@@ -79,5 +79,23 @@
                 <div data-i18n="OFFERS">Offers</div>
             </a>
         </li>
+        <li class="menu-item {{ request()->is('admin/contact*') ? 'active open' : '' }}">
+            <a href="{{ route('contactDetails') }}" class="menu-link">
+                <i class="menu-icon icon-base ri ri-contacts-line"></i>
+                <div data-i18n="CONTACT">Website Contact Details</div>
+            </a>
+        </li>
+        <li class="menu-item {{ request()->is('admin/social*') ? 'active open' : '' }}">
+            <a href="{{ route('socialMediaLinks') }}" class="menu-link">
+                <i class="menu-icon icon-base ri ri-share-line"></i>
+                <div data-i18n="SOCIALLINKS">Website Social Links</div>
+            </a>
+        </li>
+        {{-- <li class="menu-item {{ request()->is('admin/website-pages*') || request()->is('admin/add-website-page*') || request()->is('admin/edit-website-page*') ? 'active open' : '' }}">
+            <a href="{{ route('websitePages') }}" class="menu-link">
+                <i class="menu-icon icon-base ri ri-global-line"></i>
+                <div data-i18n="PAGES">Website Pages</div>
+            </a>
+        </li> --}}
     </ul>
 </aside>

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ URL::asset('backend/assets/css/core.css') }}" />
     <link rel="stylesheet" href="{{ URL::asset('backend/assets/css/demo.css') }}" />
     <link rel="stylesheet" href="{{ URL::asset('backend/assets/css/iconify-icons.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <script src="{{ URL::asset('backend/assets/js/helpers.js') }}"></script>
     <script src="{{ URL::asset('backend/assets/js/jquery.js') }}"></script>
     <script src="https://cdn.tiny.cloud/1/fuzj8lljvdncx7ixsjsxxd20cpyo03nca083dpwvttnhrfui/tinymce/8/tinymce.min.js"
